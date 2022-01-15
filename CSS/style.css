@@ -52,6 +52,14 @@ nav {
   font-size: 16px;
   padding: 10px 10px;
 }
+#nav-toggle {
+  display: none;
+}
+.nav-toggler-icon {
+  display: none;
+  color: #3a3a3a;
+  font-size: 30px;
+}
 
 /* banner style  */
 .banner {
@@ -200,10 +208,10 @@ nav {
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  /* gap: 50px; */
 }
 .contact-left img {
-  width: 95%;
+  width: 85%;
 }
 .contact-right form {
   display: flex;
@@ -220,14 +228,16 @@ nav {
   border-radius: 10px;
 }
 .submit-btn {
-  padding: 10px 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: whitesmoke;
-  font-weight: 600;
-  background-image: linear-gradient(90deg,#bb1250,#cc175a);
-  border-radius: 5px;
+  font-weight: 500;
   outline: 0;
-  border: none;
+  border: 0;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background-image: linear-gradient(90deg, #bb1250, #cc175a);
+  border-radius: 24px;
+  outline: 0;
   margin-top: 5px;
 }
 /* footer section syles  */
@@ -261,3 +271,67 @@ nav {
   text-align: center;
 }
 
+/* responsive section  */
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .banner,
+  .collections,
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nav-toggler-icon {
+    display: block;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .navigation {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 0;
+    transform: translateY(-320px);
+    transition: 0.4s linear;
+  }
+  #nav-toggle:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+}
+/* tablet stles  */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .banner,
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-toggler-icon {
+    display: block;
+  }
+  .navigation {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px 0;
+    transform: translateY(-320px);
+    transition: 0.4s ease-in;
+  }
+  #nav-toggle:checked ~ .navigation {
+    transform: translateY(0px);
+  }
+}
