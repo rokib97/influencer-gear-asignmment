@@ -115,9 +115,7 @@ nav {
 }
 .banner-right img {
   width: 80%;
-  background-image: url(../images/Circle\ design.svg);
-  background-repeat: no-repeat;
-  background-position: right;
+  border-radius: 1000px;
 }
 
 /* popular collection styles  */
@@ -292,7 +290,7 @@ nav {
     order: 2;
     margin-top: 50px;
   }
-  .banner-right img{
+  .banner-right img {
     width: 100%;
   }
 
