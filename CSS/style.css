@@ -283,9 +283,10 @@ nav {
   .nav-toggler-icon {
     display: block;
   }
-  /* .banner {
+  .banner {
     flex-direction: column;
-  } */
+    font-size: 30px;
+  }
   .banner-left {
     order: 2;
     margin-top: 50px;
