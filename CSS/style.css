@@ -285,9 +285,17 @@ nav {
   .nav-toggler-icon {
     display: block;
   }
-  .banner{
+  /* .banner {
     flex-direction: column;
+  } */
+  .banner-left {
+    order: 2;
+    margin-top: 50px;
   }
+  .banner-right img{
+    width: 100%;
+  }
+
   .navigation {
     position: absolute;
     top: 100px;
