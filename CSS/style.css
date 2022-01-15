@@ -1,7 +1,9 @@
 /* font style  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-/* common or utilities style  */
+/* ----------------------
+common or utilities styles
+----------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +22,9 @@ body {
   color: #93478f;
 }
 
-/* navigation style  */
+/* ---------------
+navigation style 
+----------------- */
 .logo {
   font-style: normal;
   font-weight: bold;
@@ -62,7 +66,10 @@ nav {
   font-size: 30px;
 }
 
-/* banner style  */
+/*-------------------
+ banner style here 
+ --------------------*/
+
 .banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -127,7 +134,9 @@ nav {
   border-radius: 1000px;
 }
 
-/* popular collection styles  */
+/* --------------
+popular collection styles
+------------------------  */
 .section-title {
   text-align: center;
 }
@@ -212,11 +221,12 @@ nav {
   font-size: 16px;
 }
 
-/* contact area styles  */
+/* --------------
+contact area styles 
+-------------------- */
 .contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 50px; */
 }
 .contact-left img {
   width: 85%;
@@ -248,7 +258,9 @@ nav {
   outline: 0;
   margin-top: 5px;
 }
-/* footer section syles  */
+/* -----------------
+footer section syles 
+---------------------- */
 .footer {
   text-align: center;
   background-color: #0a0826;
@@ -279,7 +291,10 @@ nav {
   text-align: center;
 }
 
-/* responsive section  */
+/* ----------------
+responsive section
+--------------------  */
+
 /* mobile devices */
 @media only screen and (max-width: 688px) {
   .container {
@@ -321,7 +336,9 @@ nav {
     transform: translateY(0px);
   }
 }
-/* tablet stles  */
+/* ---------------
+tablet responsive 
+------------------  */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
   .container {
     width: 100%;
