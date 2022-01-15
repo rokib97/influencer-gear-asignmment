@@ -16,7 +16,7 @@ body {
   padding: 30px;
 }
 .highlight {
-  color: #e02c6d;
+  color: #93478f;
 }
 
 /* navigation style  */
@@ -24,12 +24,12 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  color: #3a3a3a;
+  color: #363958;
 }
 .logo h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #3a3a3a;
+  color: #363958;
 }
 nav {
   display: flex;
@@ -46,7 +46,7 @@ nav {
 }
 .navigation li a {
   text-decoration: none;
-  color: #3a3a3a;
+  color: #363958;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -57,7 +57,7 @@ nav {
 }
 .nav-toggler-icon {
   display: none;
-  color: #3a3a3a;
+  color: #363958;
   font-size: 30px;
 }
 
@@ -81,7 +81,7 @@ nav {
   border: 0;
   padding: 10px 24px;
   border-radius: 41px;
-  background-image: linear-gradient(90deg, #cc175a, #e02c6d);
+  background-image: linear-gradient(90deg, #802c7b, #93478f);
   cursor: pointer;
 }
 .fa-arrow-right {
@@ -98,13 +98,13 @@ nav {
   font-style: normal;
   font-weight: bold;
   font-size: 52px;
-  color: #3a3a3a;
+  color: #363958;
 }
 .banner-left p {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: #3a3a3a;
+  color: #363958;
   line-height: 1.5;
   margin: 20px 0;
 }
@@ -126,8 +126,8 @@ nav {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
-  color: #3a3a3a;
-  border-bottom: 2px solid #e02c6d;
+  color: #363958;
+  border-bottom: 2px solid #5a20cb;
   margin: 50px 0;
   display: inline-block;
 }
@@ -147,13 +147,13 @@ nav {
 .collection-item h2 {
   font-weight: 500;
   font-size: 28px;
-  color: #18191f;
+  color: #363958;
 }
 .collection-item h3 {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  color: rgba(0, 0, 0, 0.87);
+  color: #363958;
   margin-bottom: 10px;
 }
 .rating {
@@ -181,7 +181,7 @@ nav {
   color: #787885;
 }
 #fa-arrow-right {
-  color: #e02c6d;
+  color: #93478f;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -196,7 +196,7 @@ nav {
 #see-more {
   text-decoration: none;
   margin-right: 10px;
-  color: #e02c6d;
+  color: #93478f;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -222,7 +222,7 @@ nav {
   padding: 10px;
   font-size: 18px;
   font-family: inherit;
-  border: 1px solid #cc175a;
+  border: 1px solid #93478f;
   border-radius: 10px;
 }
 .submit-btn {
@@ -233,7 +233,7 @@ nav {
   border: 0;
   padding: 10px 24px;
   border-radius: 41px;
-  background-image: linear-gradient(90deg, #bb1250, #cc175a);
+  background-image: linear-gradient(90deg, #7e377a, #93478f);
   border-radius: 24px;
   outline: 0;
   margin-top: 5px;
